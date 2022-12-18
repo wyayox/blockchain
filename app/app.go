@@ -107,6 +107,7 @@ import (
 	blockchainmodule "github/chancebet/blockchain/x/blockchain"
 	blockchainmodulekeeper "github/chancebet/blockchain/x/blockchain/keeper"
 	blockchainmoduletypes "github/chancebet/blockchain/x/blockchain/types"
+
 	// this line is used by starport scaffolding # stargate/app/moduleImport
 
 	appparams "github/chancebet/blockchain/app/params"
@@ -114,7 +115,7 @@ import (
 )
 
 const (
-	AccountAddressPrefix = "cosmos"
+	AccountAddressPrefix = "cbet"
 	Name                 = "blockchain"
 )
 
